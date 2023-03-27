@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="canonical" href="index.html" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/favicon.png" />
+    <title>Admin Panel</title>
+  </head>
+  <body>
+    <div id="preloader">
+      <div class="loader"></div>
+    </div>
+    <!-- start landing -->
+    <div class="header">
+      <div class="container">
+        <div id="menu" class="menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul id="sections" class="sections">
+          <li><a href="#work">Add New Project</a></li>
+        </ul>
+        <div class="logo">
+          <a href="index.html"><h1>Admin Panel</h1></a>
+        </div>
+        <div class="links">
+          <i id="links" class="ai-link-on"></i>
+        </div>
+        <ul id="social" class="social">
+          <li>
+            <a href="https://www.facebook.com/ehab.mansour.3975"
+              ><i class="ai-facebook-fill"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/ehabmansour111"
+              ><i class="ai-twitter-fill"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://wa.me/+201119216865"
+              ><i class="ai-whatsapp-fill"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://instagram.com/ehab_mans/"
+              ><i class="ai-instagram-fill"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/ehab-mans-123727197/"
+              ><i class="ai-linkedin-fill"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <main>
+      <div class="projects">
+        <h2 class="main-heading">Projects</h2>
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Name</th>
+              <th scope="col">Img</th>
+              <th scope="col">Link</th>
+              <th scope="col">Type</th>
+              <th scope="col">Delete</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+        <div class="divider div-transparent div-dot section" id="work"></div>
+        <h3>Add New Project</h3>
+        <div class="add-div">
+          <input type="text" id="projname" placeholder="Name" />
+          <input type="text" id="img" placeholder="Img" />
+          <input type="text" id="projlink" placeholder="Link" />
+          <select id="type">
+            <option value="design">design</option>
+            <option value="web">web</option>
+            <option value="react">react</option>
+          </select>
+          <button id="add-butt">Add Project</button>
+        </div>
+      </div>
+    </main>
+    <div class="section footer">
+      <div class="container">
+        <a href="index.html"
+          ><img loading="lazy" src="images/me.png" alt="logo"
+        /></a>
+        <ul id="sections" class="sections">
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#skills">My Skills</a></li>
+          <li><a href="#work">My Work</a></li>
+        </ul>
+        <span>© All right reserved</span>
+      </div>
+    </div>
+    <script src="https://unpkg.com/akar-icons-fonts"></script>
+    <script src="javascript/main.js"></script>
+  </body>
+</html>
